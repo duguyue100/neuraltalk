@@ -258,7 +258,7 @@ def main(params):
             pickle.dump(checkpoint, open(filepath, "wb"))
             print 'saved checkpoint in %s' % (filepath, )
           except Exception, e: # todo be more clever here
-            print 'tried to write checkpoint into %s but got error: ' % (filepat, )
+            print 'tried to write checkpoint into %s but got error: ' % (filepath, )
             print e
 
 

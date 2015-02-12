@@ -10,7 +10,7 @@ def decodeGenerator(generator):
   if generator == 'rnn':
     return RNNGenerator
   else:
-    raise Exception('generator %s is not yet supported' % (base_generator_str,))
+    raise Exception('generator %s is not yet supported' % (generator,))
 
 class GenericBatchGenerator:
   """ 
